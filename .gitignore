@@ -37,7 +37,7 @@ build/
 *.onnx
 
 # Large datasets
-data/raw/*
+data/raw/*.csv
 data/processed/*
 
 # MLflow
