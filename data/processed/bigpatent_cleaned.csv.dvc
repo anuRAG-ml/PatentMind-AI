@@ -1,0 +1,5 @@
+outs:
+- md5: 015d171171bff353d8e6c9bdd10f4fe2
+  size: 251962182
+  hash: md5
+  path: bigpatent_cleaned.csv

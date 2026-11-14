@@ -50,3 +50,6 @@ mlruns/
 *.log
 # PyCharm
 .idea/
+
+# Track DVC metadata for processed data
+!data/processed/*.dvc
