@@ -1,10 +1,10 @@
-=== PatentMind-AI: TF-IDF + Logistic Regression Evaluation ===
+PatentMind-AI Classification Evaluation
 
-Accuracy:          55.50%
-Macro Precision:   53.41%
-Macro Recall:      55.50%
-Macro F1-Score:    53.80%
-Weighted F1-Score: 53.80%
+accuracy: 0.555000
+macro_precision: 0.534099
+macro_recall: 0.555000
+macro_f1: 0.537958
+weighted_f1: 0.537958
 
 Classification Report:
               precision    recall  f1-score   support

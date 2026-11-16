@@ -1,0 +1,17 @@
+
+numpy
+pandas
+scikit-learn
+joblib
+fastapi
+uvicorn[standard]
+spacy
+sentence-transformers
+faiss-cpu
+groq
+python-dotenv
+streamlit
+requests
+pymupdf
+pytesseract
+Pillow

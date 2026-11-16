@@ -1,7 +1,11 @@
+
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
+*.egg-info/
+dist/
+build/
 
 # Virtual environments
 .venv/
@@ -11,20 +15,22 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment variables / secrets
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
 
-# VS Code
+# IDE
 .vscode/
+.idea/
 
 # OS files
 .DS_Store
 Thumbs.db
-
-# Python build files
-*.egg-info/
-dist/
-build/
 
 # Trained models
 *.pkl
@@ -35,21 +41,32 @@ build/
 *.pt
 *.pth
 *.onnx
+models/*.index
+models/patent_metadata.csv
 
-# Large datasets
+# Datasets
 data/raw/*.csv
 data/processed/*
+!data/processed/*.dvc
+
+# DVC
+.dvc/cache/
+.dvc/config.local
 
 # MLflow
 mlruns/
-
-# DVC cache
-.dvc/cache/
+mlflow.db
+mlflow.db-journal
 
 # Logs
 *.log
-# PyCharm
-.idea/
 
-# Track DVC metadata for processed data
-!data/processed/*.dvc
+# Docker
+.Docker/
+# DVC isolated environment
+.venv-dvc/
+
+# Generated tracking files
+mlruns/
+mlflow.db
+mlflow.db-journal
